@@ -3,7 +3,7 @@ module github.com/a-ilin/docker-veth-namer
 go 1.25.5
 
 require (
-	github.com/docker/docker v28.3.1+incompatible
+	github.com/docker/docker v28.3.3+incompatible
 	github.com/sirupsen/logrus v1.9.4
 	github.com/stretchr/testify v1.11.1
 	github.com/thediveo/gons v0.9.9
