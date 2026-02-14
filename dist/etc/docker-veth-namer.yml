@@ -1,0 +1,48 @@
+---
+# Container link prefixes to be removed.
+container_link_prefixes:
+  - eth
+
+# Separator to be added in front of the link index.
+link_index_separator: ""
+
+# Remove duplicated symbols in the resulted name.
+remove_duplicated_symbols: true
+
+# Symbol replacements. The replacement order is according to the position in the list.
+# Each replacement is processed non-recursively: when a substring of the container name matches a list item,
+# the substitution will not be matched against other replacements.
+replacements:
+  - admin: adm
+  - alert: al
+  - advisor: adv
+  - corp: cr
+  - docker: dk
+  - email: eml
+  - exporter: ex
+  - export: ex
+  - fetchmail: fml
+  - manager: mg
+  - mariadb: madb
+  - mysqld: my
+  - mysql: my
+  - oauth: oa
+  - openvpn: ovpn
+  - over: o
+  - owncloud: oc
+  - postgres: pg
+  - private: pvt
+  - prometheus: prom
+  - public: pub
+  - server: srv
+  - smartctl: smart
+  - "-ui": ui
+  - wireguard: wg
+  - a: ""
+  - e: ""
+  - i: ""
+  - o: ""
+  - u: ""
+  - y: ""
+  - "-": ""
+  - "_": ""

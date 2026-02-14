@@ -1,0 +1,8 @@
+Package: docker-veth-namer
+Version: @VERSION@
+Section: admin
+Priority: optional
+Architecture: @ARCH@
+Depends: libc6
+Maintainer: Aleksei Ilin <a@a-ilin.dev>
+Description: Tool for automatic renaming of veth links created by Docker to human-readable format.

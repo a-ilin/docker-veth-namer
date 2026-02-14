@@ -1,0 +1,9 @@
+# Ignore binary
+/bin/**
+**/__debug_bin**
+
+# Ignore local environment
+**/.env
+
+# Ignore local VSCode settings
+.vscode/**

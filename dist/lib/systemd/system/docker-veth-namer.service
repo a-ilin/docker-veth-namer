@@ -1,0 +1,11 @@
+[Unit]
+Description=docker-veth-namer
+Documentation=man:docker-veth-namer(8) https://github.com/a-ilin/docker-veth-namer
+After=docker.service
+Requisite=docker.service
+
+[Service]
+ExecStart=/usr/sbin/docker-veth-namer
+
+[Install]
+WantedBy=sysinit.target
