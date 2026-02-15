@@ -47,7 +47,7 @@ Use verbose logging.
 *-n*, *--dry-run*++
 Display the expected link name changes, but do not execute actual renaming.
 
-*-n*, *--config*++
+*-c*, *--config*++
 Specify path to the configuration file.
 
 
